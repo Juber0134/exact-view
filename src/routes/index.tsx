@@ -156,11 +156,11 @@ function Index() {
           </div>
         </Section>
 
-        <Section id="chatbot" title="AI Chatbot (Coming Soon)" alt>
+        <Section id="chatbot" title="AI Chatbot" alt>
           {/* BOTPRESS: paste the Botpress webchat embed script here later (or in __root.tsx head). */}
           <div className="rounded-2xl border-2 border-dashed border-accent p-8 text-center">
-            <p className="font-semibold">A personal AI chatbot (Botpress) will be added here in the future.</p>
-            <p className="mt-2 text-sm text-muted-foreground">Not connected yet.</p>
+            <p className="font-semibold">Have a question? Chat with my AI assistant.</p>
+            <p className="mt-2 text-sm text-muted-foreground">Click the chat bubble at the bottom-right corner of the screen to start.</p>
           </div>
         </Section>
       </main>
