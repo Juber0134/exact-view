@@ -63,20 +63,20 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --background: oklch(0.985 0.006 230);
+  --foreground: oklch(0.24 0.08 270);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
+  --primary: oklch(0.36 0.15 272);
   --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
+  --secondary: oklch(0.94 0.035 190);
   --secondary-foreground: oklch(0.208 0.042 265.755);
   --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
+  --muted-foreground: oklch(0.45 0.04 265);
+  --accent: oklch(0.72 0.11 185);
+  --accent-foreground: oklch(0.2 0.06 270);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
   --border: oklch(0.929 0.013 255.508);
@@ -132,7 +132,11 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+@theme inline { --font-display: "Fraunces", serif; --font-sans: "Manrope", sans-serif; }
+
 @layer base {
+  html { scroll-behavior: smooth; }
+  h1,h2,h3 { font-family: var(--font-display); }
   * {
     border-color: var(--color-border);
   }
