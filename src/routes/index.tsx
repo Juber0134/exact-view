@@ -12,9 +12,9 @@ const PROFILE = {
   degree: "B.Tech in Mechanical Engineering",
   university: "JECRC University, Jaipur, Rajasthan",
   semester: "1st Semester",
-  email: "YOUR_EMAIL@example.com",
-  github: "https://github.com/YOUR_USERNAME",
-  linkedin: "https://www.linkedin.com/in/YOUR_USERNAME",
+  email: "juber.26bmen0018@jecrcu.edu.in",
+  github: "https://github.com/Juber0134",
+  linkedin: "https://www.linkedin.com/in/Juber0134",
 };
 const SKILLS = [
   { name: "Engineering fundamentals", level: "Currently learning" },
